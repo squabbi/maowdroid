@@ -44,7 +44,7 @@ You **do not need** to incrementally update when using the factory images. Since
 
 You should remove the Active Edge Module used with Edge Sense Plus, developed by j to the 4n.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/active-edge-update-dialogue.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/active-edge-update-dialogue.png"/>
 
 You should also remove Substratum overlays, especially for themed `system` applications such as:
 * SystemUI
@@ -126,7 +126,7 @@ Once you have the platform tools set up, you just need to extract a few more ite
 
 Open the factory image, and go into the folder inside the archive. Now you should see a bunch of files with .img, .sh, .bat & .zip.
 
-![Image](/assets/images/update-rooted-pixel/factory-image-contents.png){:.shadow}
+![Image](/maowdroid/assets/images/update-rooted-pixel/factory-image-contents.png){:.shadow}
 
 Extract the following three (3) files to where you have everything else downloaded:
 
@@ -168,17 +168,17 @@ Upon booting into TWRP you may be greeted with the following screens.
 ### Data Decryption
 Our Pixels by default encrypt your data partition. In order for TWRP to access your internal storage or what's more commonly known now as your `sdcard`, you'll need to give TWRP your screen lock details (PIN, password or pattern).
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-decrypt.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-decrypt.png"/>
 
 ### Keeping System Read Only
 This one is a little trickier, but in short, if you are just rooting, tap the option to **Keep Read Only**. You can change it later on in the `Mount` menu in TWRP.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-unmodified-system.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-unmodified-system.png"/>
 
 
 ### TWRP Main Menu
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-main.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-main.png"/>
 
 Keep this in mind as I'll be referring to it later on, throughout the guide.
 
@@ -187,27 +187,27 @@ Please remember that this is optional, you **DO NOT** have to install TWRP persi
 
 But if you'd like to have TWRP, follow the following steps.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-file-browse.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-file-browse.png"/>
 
 Tap `Install` on TWRP's main menu. You will now need to browse for the `twrp-installer.zip` you had copied over previously. By default, the file browser will open up to where you were last. To go up a directory, scroll to the top and select the item which says `(Up A Level)`.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-file-browser-located.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-file-browser-located.png"/>
 
 Once you find the `twrp-installer.zip`, tap on it and then swipe to confirm flash.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-flash-twrp-installer.png"/>
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-flash-twrp-installer-done.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-flash-twrp-installer.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-flash-twrp-installer-done.png"/>
 
 Now tap the Back button, and then from the main menu, tap on `Reboot`, and select `Recovery`. This way we can test if we have successfully installed TWRP.
 
 ### Flashing Magisk
 Once you are in TWRP, and you're at the main menu. Tap on `Install`, and browse for the `Magisk.zip` you had copied over earlier.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-file-browser-located.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-file-browser-located.png"/>
 
 Then swipe to confirm flash. This will root your phone by installing Magisk to your newly updated boot image.
 
-<img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-flash-magisk.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-flash-magisk.png"/>
 <img class="image image--lg" src="/assets/images/update-rooted-pixel/twrp-flash-magisk-done.png"/>
 
 Once Magisk has finished flashing, tap on `Reboot System` if you have nothing else to flash. It's generally a good idea to see if your phone can even boot into Android at this point, before you throw more stuff at it.
