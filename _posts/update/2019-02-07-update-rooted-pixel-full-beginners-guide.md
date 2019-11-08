@@ -208,7 +208,7 @@ Once you are in TWRP, and you're at the main menu. Tap on `Install`, and browse 
 Then swipe to confirm flash. This will root your phone by installing Magisk to your newly updated boot image.
 
 <img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-flash-magisk.png"/>
-<img class="image image--lg" src="assets/images/update-rooted-pixel/twrp-flash-magisk-done.png"/>
+<img class="image image--lg" src="/maowdroid/assets/images/update-rooted-pixel/twrp-flash-magisk-done.png"/>
 
 Once Magisk has finished flashing, tap on `Reboot System` if you have nothing else to flash. It's generally a good idea to see if your phone can even boot into Android at this point, before you throw more stuff at it.
 
