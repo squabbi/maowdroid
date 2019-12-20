@@ -67,6 +67,8 @@ Yes, 100% you can. Since we have the factory images, we can use those to restore
 
 # Process
 
+This is the process that is shown in the video:
+
 1. Enable OEM Unlock inside the Developer Options
 2. Patch a `boot.img` using Magisk Manager
 3. Unlock the bootloader
@@ -90,7 +92,8 @@ We need to grab a few things that we'll use when we root our Pixel, so here they
 [Google Factory Images][3] | These are the original firmware/software that Google provides for their devices. In here, we have the **stock** images that we'll use (the `boot.img`).
 [Magisk][4] | The XDA thread for Magisk and all of its related files, this will include a link for Magisk Manager too.
 
-Once you have those, let's continue.
+
+Once you have downloaded those files, let's continue.
 
 [1]: https://developer.android.com/studio/run/win-usb "Google USB Drivers for Windows"
 [2]: https://developer.android.com/studio/releases/platform-tools "Android SDK Platform Tools (adb & fastboot)"
@@ -120,3 +123,40 @@ From here, enable **OEM unlock**.
 
 **Notice:** If that toggle is disabled, read the small message underneath, it may tell you to contact your carrier, or tell you that it is not possible on network locked devices. If that is the case, you will **not** be able to unlock the bootloader, hence root, right now.
 {:.info}
+
+## Using adb & fastboot
+
+To use these programs, we need to use them via a shell. You'll probably know these as the Command Prompt (`cmd.exe`), PowerShell (`powershell.exe`), or any flavour of a macOS & Linux terminal.
+
+I'll be referring to this as a/the **terminal** from now on.
+{:info}
+
+As it is now, you will need to have the current directory of the terminal as the directory where the platform tools are (adb & fastboot). This is because of how the terminal interprets the commands you give it.
+
+This is because the places where the terminal will look through to find the command to run (for example: `fastboot devices`) is the current directory and the PATH environment variable.
+
+If you wish to be able to run `adb` & `fastboot` from any terminal, irrespective of its current directory, you will need to ensure that the location of the platform tools folder is in a permanent place (more or less, you can change the PATH environment variable if you ever move the location of the platform tools).
+
+Take a look at this video here, a guide on adding the platform tools to the PATH environment variable on Windows. Once you follow this, you'll be able to run `adb` and `fastboot` commands from any terminal without having to change directories to where the platform tools are located each time you want to use it.
+
+This will also enable you to use scripts that call the `adb` and `fastboot` commands without having to do anything extra.
+
+<div>{%- include extensions/youtube.html id='43gQRruotW0' -%}</div>
+
+## Install Google USB Drivers
+
+This is usually necessary, but recently Windows Update has been able to source and install both the ADB and Bootloader interface drivers for Android phones. Even if that is the case, I highly recommend installing the Google ones for your computer to fall back on if needed.
+
+### Extract the USB Drivers
+
+Open the Google USB driver.zip that you had donwloaded earlier, and extract the `usb-driver` folder inside.
+
+Once that is extracted, open the extracted `usb-driver` folder and locate the `.inf` file. Right-click on that file and select the **Install** option. You may have to accept a 'trust' prompt when installing the driver. You can optionally check **Trust Google LLC** so you're not asked again.
+
+Once installed, you should see a success prompt. Once that is done we can continue!
+
+## Unlocking the Bootloader
+
+There are 2 ways to boot into the bootloader. First one is to restart your phone, and as soon as the screen turns black or freezes, hold **Volume Down**.
+
+The other way to do it is to power off the phone, and then hold **Power** and **Volume Down**.
