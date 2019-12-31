@@ -58,3 +58,13 @@ header:
       en-AU   : *EN
       # @end locale config
     url: https://youtube.com/user/maowdroid
+
+  - titles:
+      # @start locale config
+      en      : &EN       Discord
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: https://discord.gg/GDguYJ4
