@@ -135,6 +135,8 @@ As it is now, you will need to have the current directory of the terminal as the
 
 This is because the places where the terminal will look through to find the command to run (for example: `fastboot devices`) is the current directory and the PATH environment variable.
 
+A shortcut on Windows, navigate to the folder where the platform tools are located. Then go to the address bar and type in "cmd" and press `Enter`. A command prompt window will be opened in the current directory (the platform tools folder), and you'll be able to use `adb` and `fastboot` from there. Keep the terminal window open as we'll need to use that throughout the guide.
+
 If you wish to be able to run `adb` & `fastboot` from any terminal, irrespective of its current directory, you will need to ensure that the location of the platform tools folder is in a permanent place (more or less, you can change the PATH environment variable if you ever move the location of the platform tools).
 
 Take a look at this video here, a guide on adding the platform tools to the PATH environment variable on Windows. Once you follow this, you'll be able to run `adb` and `fastboot` commands from any terminal without having to change directories to where the platform tools are located each time you want to use it.
@@ -160,3 +162,17 @@ Once installed, you should see a success prompt. Once that is done we can contin
 There are 2 ways to boot into the bootloader. First one is to restart your phone, and as soon as the screen turns black or freezes, hold **Volume Down**.
 
 The other way to do it is to power off the phone, and then hold **Power** and **Volume Down**.
+
+Once your phone is in the bootloader, it should look something like this.
+
+**Insert picture**
+
+Now head over to your terminal that you've opened up previously and type in this command to unlock the bootloader.
+
+```powershell
+fastboot flashing unlock
+```
+
+You'll be prompted on your phone to finish the bootloader unlocking process by confirming it on your phone. You'll need to use the volume keys to change options, and press the power button to select.
+
+Your phone should reboot to the bootloader and the lock state should now show as `unlocked`{:.error}.
