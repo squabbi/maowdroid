@@ -2,7 +2,7 @@
 layout: article
 title: 'Update Rooted Pixel 3 & 3 XL to Android 10 October Security Update'
 tags: [pixel 3,pixel 3 xl,update,rooted,android 10,october]
-categories: [update]
+categories: [pixel-3]
 published: true
 date: 05-10-2019
 aside:

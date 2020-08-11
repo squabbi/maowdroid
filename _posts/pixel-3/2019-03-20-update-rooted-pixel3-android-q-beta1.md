@@ -2,7 +2,7 @@
 layout: article
 title: 'Update a Rooted Pixel 3 & 3 XL to Android Q Beta 1'
 tags: [pixel 3,pixel 3 xl,update,rooted,android q]
-categories: [update]
+categories: [pixel-3]
 published: true
 date: 20-03-2019
 aside:
