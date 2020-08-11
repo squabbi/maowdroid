@@ -1,7 +1,7 @@
 ---
-title: 'Update a Rooted Pixel 3 & Pixel 3 XL to Android 10 November Security Update'
+title: 'Update a Rooted Pixel 3 & 3 XL to Android 10 November Security Update'
 tags: [pixel 3,pixel 3 xl,update,rooted,android 10,november]
-categories: [update]
+categories: [pixel-3]
 published: true
 date: 10-11-2019
 ---
