@@ -52,13 +52,13 @@ Generally speaking, if OEM unlock is disabled, and you only see the message "ple
 
 <div class='img-row'>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-carrier-lock.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-carrier-lock.png" width='width:100%'/>
 </div>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-contact-carrier.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-contact-carrier.png" width='width:100%'/>
 </div>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-already-unlocked.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/pixel-devop-oem-unlock-disabled-already-unlocked.png" width='width:100%'/>
 </div>
 </div>
 
@@ -74,13 +74,13 @@ You must start by enabling OEM unlock (which we had discussed earlier above) in 
 
 <div class='img-row'>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/settings.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/settings.png" width='width:100%'/>
 </div>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/about-phone.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/about-phone.png" width='width:100%'/>
 </div>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/build-no-tap.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/build-no-tap.png" width='width:100%'/>
 </div>
 </div>
 
@@ -92,10 +92,10 @@ You must start by enabling OEM unlock (which we had discussed earlier above) in 
 
 <div class='img-row'>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/developer-now.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/developer-now.png" width='width:100%'/>
 </div>
 <div class='img-col'>
-<img src="/assets/images/oem-unlocking/devop-oem-unlocking.png" width='width:100%'/>
+<img src="/maowdroid/assets/images/oem-unlocking/devop-oem-unlocking.png" width='width:100%'/>
 </div>
 </div>
 
