@@ -1,0 +1,15 @@
+<html>
+<body>
+    <div>Redirecting to MaowDroid's Discord server in <span id="counter">3</span> seconds...</div>
+    <script>
+        setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("https://discord.gg/GDguYJ4");
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
